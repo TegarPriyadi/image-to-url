@@ -1,1 +1,1 @@
-# upload-image.github.io
+# upload-image
