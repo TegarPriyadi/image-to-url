@@ -30,6 +30,16 @@
                  font-family:Verdana, Geneva, Tahoma, sans-serif;
             }
 
+            .texts{
+                height: 40.5px; 
+                width: 24%;
+            }
+
+            .textss{
+                width: 30%; 
+                height: 50px;
+            }
+
             .submit{
                 background-color: brown;
                 border: o;
@@ -40,6 +50,19 @@
                 padding: 4px 5px;
             }
             
+            @media screen and (max-width: 800px) {
+
+      .texts{
+        width: 50%;
+      }
+      .textss{
+        width: 60%;
+      }
+
+    }
+
+
+
 
 		</style>
 	</head>
@@ -60,12 +83,17 @@
         <div>
             <br>
         <label>Example of the result of the image being imported is the URL:
-            <br><br><input type="text" style="height: 40.5px; width: 24%; background-color: rgb(255, 255, 255); font-size: 20px;" value=" [{:\/file\/7e906fce5a94c5771200a.png}]" disabled> <br> <br>code yang harus diambil = 7e906fce5a94c5771200a.png
+            <br><br>
+
+            <input class="texts" type="text" style="background-color: rgb(255, 255, 255); font-size: 20px;" value=" [{:\/file\/7e906fce5a94c5771200a.png}]" disabled>
+             <br> 
+             <br>
+             code yang harus diambil = 7e906fce5a94c5771200a.png
         </label>
         <br>
         <br><hr>
         <p>Ambil kode nya lalu paste kebawah ini supaya melengkapi :</p>
-        <input type="text" style="width: 30%; height: 50px; font-size: 18px;" value="https://telegra.ph/file/"> 
+        <input type="text" class="textss" style=" font-size: 18px;" value="https://telegra.ph/file/"> 
         <br>
         <br>
         <p>By TegarPriyadi</p> 
@@ -76,3 +104,4 @@
         
 	</body>
 </html>
+
